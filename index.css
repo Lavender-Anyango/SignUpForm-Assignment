@@ -7,11 +7,12 @@
 }
 #outercontainer{
 
+
 }
 #innercontainer{
     border: none;
     border-left: 4px solid blue;
-    padding-left: 25%;
+    padding-left: 10%;
 
 }
 #image{
@@ -25,11 +26,14 @@
 }
 .link a{
     text-decoration: none;
-    color: black;
+    color: blue;
+}
+.link{
+    text-align: center;
 }
 .input{
-    padding: 12px 14px;
-    width: 80%;
+    padding: 12px 12px;
+    width: 75%;
     border-radius: 5px;
     border: solid 1px;
 }
@@ -41,3 +45,27 @@ button{
     color: white;
     background-color: blue;
 }
+.logo{
+    width: 80px;
+   text-align: left;
+    display: flex;
+}
+.image{
+    text-align: center;
+    gap: 20%;
+}
+#fullname {
+    display: grid;
+    grid-template-columns:  1fr  1fr; 
+    grid-gap:  8px; 
+    border-radius:  10px;
+  }
+  label {
+    display: block;
+  }
+  .input-group{
+    padding: 12px 12px;
+    width: 50%;
+    border-radius: 5px;
+    border: solid 1px;
+  }
