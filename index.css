@@ -5,10 +5,7 @@
     margin: 20px;
 
 }
-#outercontainer{
 
-
-}
 #innercontainer{
     border: none;
     border-left: 4px solid blue;
@@ -68,4 +65,8 @@ button{
     width: 50%;
     border-radius: 5px;
     border: solid 1px;
+  }
+  h1{
+    text-align: center;
+    color: blue;
   }
